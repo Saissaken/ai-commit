@@ -1,0 +1,31 @@
+{
+  "name": "ai-commit",
+  "version": "1.0.0",
+  "description": "A CLI tool that uses AI to automatically implement code changes",
+  "main": "src/index.ts",
+  "bin": {
+    "aic": "src/index.ts"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "bun src/index.ts",
+    "test": "bun test"
+  },
+  "keywords": [
+    "ai",
+    "cli",
+    "code-generation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "ai": "^3.4.9",
+    "@ai-sdk/openai": "^0.0.66",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.2",
+    "bun-types": "^1.1.29"
+  }
+}
